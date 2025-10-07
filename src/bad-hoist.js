@@ -1,11 +1,13 @@
 const debugFunc = () => {
-  time = 'today';
-  console.log('Hello ' + name + ", are you feeling " + mood + ' ' + time + '?');
-  var name = 'Zo';
-  var mood = 'happy';
+  const time = 'today';
+  let name = 'Zo';
+  let mood = 'happy';
 
-  console.log("Oh no, I'm sorry you're feeling " + mood + ' ' + time + '.');
-  mood = 'sad';
+  console.log('Hello ' + name + ", are you feeling " + mood + ' ' + time + '?');
+
+  mood = 'sad'
+  console.log(`Oh no, I'm sorry you're feeling ${mood} ${time}.`);
+
 };
 
 debugFunc();
@@ -13,3 +15,5 @@ debugFunc();
 module.exports = {
   debugFunc,
 };
+
+debugger;
