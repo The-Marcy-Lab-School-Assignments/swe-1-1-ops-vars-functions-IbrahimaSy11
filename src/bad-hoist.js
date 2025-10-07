@@ -13,4 +13,8 @@ const debugFunc = () => {
 
 debugFunc();
 
-module.exports = { debugFunc };
+module.exports = {
+  debugFunc,
+};
+
+debugger;
